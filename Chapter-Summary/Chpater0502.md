@@ -59,3 +59,18 @@ names = new String [] { "신용권", "홍길동", "감자바"};
 int [] intArray = new int[5];
 ```
 
+## 배열 길이
+
+코드에서 배열의 길이를 얻으려면 length 필드를 읽음
+
+필드는 내부의 데이터를 말함.
+
+```
+배열 변수.length;
+```
+
+```
+int [] intArray = {10,20,30};
+int num = intArray.length;
+```
+
