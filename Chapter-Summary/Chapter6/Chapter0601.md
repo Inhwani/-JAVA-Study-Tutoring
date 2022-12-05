@@ -63,3 +63,28 @@ new 클래스();
 new 연산자 뒤에는 생성자가 오는데, 생성자는 클래스() 형태를 가지고 있음
 
 new 연산자로 생성된 객체는 메모리 힙 영역에 생성됨.
+
+```
+클래스 변수 =  new 클래스();
+```
+
+```
+package sec01.exam01;
+
+public class Student {
+}
+```
+
+```
+package sec01.exam01;
+
+public class StudentExample {
+  public static void main (String [] args) {
+    Student S1 = new Student();
+    System out.println(" s1 변수가 Studnet 객체를 참조합니다.");
+    
+    Student s2 = new Student();
+    System.out.println("s2 변수가 또 다른 student 객체를 참조합니다.");
+    }
+  }
+```
